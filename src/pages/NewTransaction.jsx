@@ -37,7 +37,6 @@ function NewTransaction() {
     ? categoryId
     : (typeCategories[0]?.id ?? "");
 
-  const handleSubmit = (e) => {
   const handleReceiptUpload = async (event) => {
     const file = event.target.files?.[0];
     event.target.value = "";
